@@ -40,7 +40,7 @@ LOGGING = {
             'level': 'INFO',
         },
         # diaryアプリケーションが利用するロガー
-        'diary': {
+        'photoup': {
             'handlers': ['file'],
             'level': 'INFO',
         },
