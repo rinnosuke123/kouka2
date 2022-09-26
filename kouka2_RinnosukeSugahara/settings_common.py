@@ -34,6 +34,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'photoup.apps.PhotoupConfig',
+
+    'django_bootstrap5',
+    'django_ses',
 ]
 
 MIDDLEWARE = [
@@ -74,7 +77,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'kouka2',
-        'USER': 'postgres',
+        'USER': 'app_admin',
         'PASSWORD': 'postgres',
         'HOST': '',
         'PORT': '',
