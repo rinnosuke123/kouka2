@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'photoup.apps.PhotoupConfig',
 
     'django_bootstrap5',
-    'django_ses',
 ]
 
 MIDDLEWARE = [
